@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadir to Zenith | The Architecture of Ascension</title>
+    <meta name="description" content="Nadir to Zenith - Premium digital solutions for high-performance web and mobile platforms." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap');
+      
+      :root {
+        --bg-dark: #0a0a0b;
+        --accent-cyan: #00f2ff;
+        --slate-grey: #94a3b8;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background-color: var(--bg-dark);
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-dark);
+        color: #ffffff;
+        overflow-x: hidden;
+      }
+      
+      .font-heading {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      @keyframes reveal {
+        0% { opacity: 0; transform: translateY(40px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      .reveal {
+        animation: reveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+
+      .stagger-1 { animation-delay: 0.1s; }
+      .stagger-2 { animation-delay: 0.2s; }
+      .stagger-3 { animation-delay: 0.3s; }
+      .stagger-4 { animation-delay: 0.4s; }
+
+      /* Glassmorphism */
+      .glass {
+        background: rgba(10, 10, 11, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      /* Custom Selection */
+      ::selection {
+        background: var(--accent-cyan);
+        color: var(--bg-dark);
+      }
+
+      /* Hide scrollbar for clean aesthetic */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .magnetic-glow {
+        transition: all 0.3s ease;
+      }
+      .magnetic-glow:hover {
+        box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+        transform: translateY(-2px);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react,react-dom",
+    "class-variance-authority": "https://esm.sh/class-variance-authority@0.7.0",
+    "@radix-ui/react-slot": "https://esm.sh/@radix-ui/react-slot@1.0.2?external=react,react-dom"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
