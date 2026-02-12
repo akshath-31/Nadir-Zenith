@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         <div className="reveal stagger-1 flex items-center justify-center gap-3 mb-8 opacity-0">
           <div className="h-[1px] w-8 bg-[#00f2ff]/50"></div>
           <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.4em] text-[#00f2ff]">
-            Digital Excellence Studio - Next Gen
+            Digital Excellence Studio
           </span>
           <div className="h-[1px] w-8 bg-[#00f2ff]/50"></div>
         </div>
