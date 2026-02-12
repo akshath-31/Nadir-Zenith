@@ -1,3 +1,4 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -26,7 +27,7 @@ const Hero: React.FC = () => {
 
         {/* Headline */}
         <h1 className="reveal stagger-2 opacity-0 text-7xl md:text-8xl lg:text-9xl font-heading font-bold text-white leading-[0.9] tracking-tighter mb-10">
-          Nadir to <br/>
+          Nadir-<br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#00f2ff] to-[#00f2ff]/50">
             Zenith
           </span>

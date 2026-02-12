@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 </h2>
                 <div className="space-y-6 text-slate-400 font-light text-lg max-w-lg">
                     <p>
-                        Nadir to Zenith was born from a realization: most digital platforms are built for the average. We build for the zenith.
+                        Nadir-Zenith was born from a realization: most digital platforms are built for the average. We build for the zenith.
                     </p>
                     <p>
                         We partner with forward-thinking businesses to craft digital architecture that doesn't just function—it ascends. From initial concept (Nadir) to final peak performance (Zenith), we are your technical co-pilots.

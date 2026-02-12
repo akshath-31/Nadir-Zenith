@@ -1,3 +1,4 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -117,6 +118,6 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     }
 ];
 
-export const BRAND_NAME = 'Nadir to Zenith';
+export const BRAND_NAME = 'Nadir-Zenith';
 export const PRIMARY_ACCENT = '#00f2ff';
 export const BG_DARK = '#0a0a0b';
